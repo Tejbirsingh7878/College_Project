@@ -48,7 +48,7 @@ class TakeCredentialsActivity : AppCompatActivity() {
 
     fun doSignUp(view: View) {
         if (fullName.text.toString() == "" || phoneNumberField.text.toString() == "") {
-            Toast.makeText(this, "Name is a required field", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Fields can't be empty is a required field", Toast.LENGTH_SHORT).show()
         }
         phoneNumberPattern.matcher(phoneNumberField.text.toString())
         if (!matcher.matches()) {
