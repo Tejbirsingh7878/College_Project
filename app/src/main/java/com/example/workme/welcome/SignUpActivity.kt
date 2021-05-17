@@ -28,9 +28,12 @@ class SignUpActivity : AppCompatActivity() {
     fun takeCredentials(view: View) {
         if (userNameField.text.toString() == "" || passwordField.text.toString() == "") {
             Toast.makeText(this, "Username or Password can't be empty", Toast.LENGTH_SHORT).show()
-        } else if (passwordField.text.toString() != rePasswordField.text.toString()) {
-            Toast.makeText(this, "Passwords don't match", Toast.LENGTH_SHORT).show()
-        } else {
+        }
+//            We dont need to check password as it is a signUp page to a Login
+//        else if (passwordField.text.toString() != rePasswordField.text.toString()) {
+//            Toast.makeText(this, "Passwords don't match", Toast.LENGTH_SHORT).show()
+//        }
+        else {
             val intentToTakeCredentials = Intent(this, TakeCredentialsActivity::class.java)
             startActivity(intentToTakeCredentials)
         }
