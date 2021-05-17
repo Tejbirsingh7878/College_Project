@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue_gradient_background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/pale_yellow"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/solargaria170900008"
+        android:layout_marginTop="30dp"
+
+        />
+        <!--name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_marginLeft="5dp"
+
+                android:fontFamily="monospace"
+                android:text="Name:"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="fill_parent"
+                android:layout_height="40sp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_border"
+                android:includeFontPadding="true"
+                android:paddingHorizontal="10sp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+    <!--age-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:fontFamily="monospace"
+            android:text="Age:"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!--UID-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="monospace"
+            android:text="UID:"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/UID"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!--password-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="monospace"
+            android:text="Password: "
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="monospace"
+            android:text="phone:"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phoneNo"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+    </LinearLayout>

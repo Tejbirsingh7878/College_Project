@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue_gradient_background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="Your Attendence"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/pale_yellow"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="Montly"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/pale_yellow"
+        android:textStyle="bold" />
+
+
+    <!--Date: -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginLeft="5dp"
+
+            android:fontFamily="monospace"
+            android:text="Date: "
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Date"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!--Attendence:-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:fontFamily="monospace"
+            android:text="Attendence:"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Attendence"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!--Percentage:-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="monospace"
+            android:text="Percentage: "
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Percentage"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="Yearly"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/pale_yellow"
+        android:textStyle="bold" />
+
+    <!--Day: -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginLeft="5dp"
+
+            android:fontFamily="monospace"
+            android:text="Day: "
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Day"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:fontFamily="monospace"
+            android:text="Attendence:"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/AttendenceY"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!--Percentage:-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="monospace"
+            android:text="Percentage: "
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/PercentageY"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text_border"
+            android:includeFontPadding="true"
+            android:paddingHorizontal="10sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
